@@ -23,10 +23,15 @@ public class App {
         SquareAndMultiply sm = new SquareAndMultiply(new BigInteger("3"), new BigInteger("53"));
         System.out.println(sm.toString());
     }
+    public static void test4() {
+        MillerRabinPrimality mrp = new MillerRabinPrimality(1024);
+        System.out.println(mrp.toString());
+    }
 
     public static void main(String[] args) throws Exception {
         // test1();
         // test2();
         // test3();
+        test4();
     }   
 }
