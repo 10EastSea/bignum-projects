@@ -63,6 +63,7 @@ Reference: [Miller–Rabin primality test in Wikipedia](https://en.wikipedia.org
 # Usage
 
 ```Bash
+# java version: openjdk 11.0.11
 java -jar bignum-projects.jar [FALG]
 ```
 
