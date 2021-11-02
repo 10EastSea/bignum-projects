@@ -78,6 +78,8 @@ public class MillerRabinPrimality {
         return isPrime;
     }
 
+    public BigInteger getPrime() { return prime; }
+
     public String toString() {
         return prime.toString();
         // return prime.toString() + " / " + prime.isProbablePrime(60);

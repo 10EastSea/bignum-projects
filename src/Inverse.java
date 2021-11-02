@@ -18,8 +18,8 @@ public class Inverse extends ExtendedEuclidean {
         } else if(getGcd().compareTo(BigInteger.ONE) == 0) { // For inverse to exist, gcd must be 1
             isExist = true;
             if(getB().compareTo(BigInteger.ZERO) < 0) { // inverse is negative
-                xInv = getB();
-                xAnotherInv = getB().add(getX());
+                xInv = getB().add(getX());
+                xAnotherInv = getB();
             } else { // inverse is positive
                 xInv = getB();
                 xAnotherInv = getB().subtract(getX());
@@ -29,6 +29,8 @@ public class Inverse extends ExtendedEuclidean {
             xAnotherInv = null;
         }
     }
+
+    public BigInteger getxInv() { return xInv; }
 
     public String toString() {
         if(isExist) return "Inverse of " + x.toString() + " is " + xInv.toString() + "(or " + xAnotherInv.toString() + ") in Z " + N.toString() + " Group";

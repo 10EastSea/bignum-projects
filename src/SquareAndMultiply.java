@@ -26,6 +26,8 @@ public class SquareAndMultiply {
         gOfx = z;
     }
 
+    public BigInteger getgOfX() { return gOfx; }
+
     public String toString() {
         return gOfx.toString();
     }
