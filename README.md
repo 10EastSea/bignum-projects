@@ -82,7 +82,7 @@ gcd(18, 12) = (1) * 18 + (-1) * 12 = 6
 
 # Inverse Algorithm
 >> java -jar bignum-projects.jar -i 100 23
-Inverse of 23 is -13(or 87) in Z 100 Group
+Inverse of 23 is 87(or -13) in Z 100 Group
 
 # Square and Multiply Algorithm
 >> java -jar bignum-projects.jar -sm 3 53 
